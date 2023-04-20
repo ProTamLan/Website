@@ -1,6 +1,8 @@
 img {
-    width: 5%;
-    margin: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:10%;
+    display: block;
 }
 
 h1{
@@ -8,4 +10,29 @@ h1{
     font-size: 1.5em;
     font-weight: bold;
     margin: 0;
+}
+alternatable{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+div.images{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap:wrap;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+div.images img{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,255,0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
