@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+header{
+    background-color: #FFEFD5;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    background-color: #FFEFD5;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 1px black;
+}
+
+button:hover{
+    background-color: #FFDAB9;
+    cursor: pointer;
+}
+
+.homecontainer{
+    position: relative;
+    text-align: center;
+    color:#FFEFD5;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+//red box for the text "Nature"
